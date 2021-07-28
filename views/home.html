@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/public/css/all.css" rel="stylesheet">
+    
+    <title>Pets</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/public/css/modal.css">
+    <link rel="stylesheet" href="/public/css/style.css">
+</head>
+<body>
+    <header>
+    <div class="container">
+        <div class="row">
+            <ul class="nav justify-content-end">
+                <li class="nav-item" >
+                  <a class="nav-link active" aria-current="page" href="#">Pets</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#modal">Cadastrar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Login</a>
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                      <button type="submit" class="btn btn-primary">enviar</button>                 
+                  </li>
+               </ul>
+            <div id="modal">
+            <div class="box">
+              <h3>Cadastrar</h3>
+              <div class="form-floating mb-3">
+                <input type="Nome" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Nome</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email</label>
+              </div>
+              <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Senha</label>
+              </div>
+              <button type="submit" class="btn btn-primary" style="margin: 15px;">Enviar</button>
+              <button type="button" class="btn btn-secondary"><a href="" id="close" style="margin: 15px;">Fechar</a></button>
+              <button type="reset" class="btn btn-danger" style="margin: 15px;">Apagar</button>
+            </div>
+         </div>
+     </div>        
+      </header>
+    <section>
+        <div class="clearfix">
+            <img src="/public/imagens/pets-1.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+          
+            <p>
+                Ter um bicho de estimação é cultivar um amor incondicional dentro da gente. É como criar um filho, um pequeno ser que depende do nosso carinho e afeto. A melhor parte dessa paixão é que eles nunca se cansam de amar de volta, não importa o que nós temos para dar em troca. Amor e atenção já são o suficiente para eles!
+            </p>
+          
+            <p>
+             Pensando nisso que desenvovemos o Pets, um site para quem perdeu seu bicho de estimação, ou quem encontrou algum perdido!
+            </p>
+          
+            <p>
+              Se você se também compoartilha esse amor por esses bichinhos, então venha e faça parte dessa rede de ajuda!
+            </p>
+          </div>
+        </section>
+          <footer class="nav justify-content-center" style="padding-top: 30px;">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="/public/imagens/Felipe.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Desenvolvedor Web Full Stack Jr.</h5>
+                        <ul>
+                            <li>Redes Sociais</li>
+                            <a href="tel:+11947316669"><i class="fab fa-whatsapp"></i></a>
+                            <a href="http://github.com/ErisonFelipe"><i class="fab fa-github"></i></a><br>
+                            <a href="https://www.linkedin.com/in/erison-felipe-b36109201/"><i class="fab fa-linkedin"></i></a>
+                            <a href="mailto:erison274@gmail.com"><i class="far fa-envelope"></i></a>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </footer>
+</body>
+</html>

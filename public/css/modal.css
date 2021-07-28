@@ -1,0 +1,53 @@
+.box {
+    width: 600px;
+    height: 700px;
+    position: absolute;
+    margin-left: -360px;
+    left: 50%;
+    top: 110px;
+  }
+  #modal:target ~ .box{
+    top: 150px;
+    transition: all .3s;
+    transition-delay: .2s;
+    
+  }
+  #modal2:target ~ .box{
+    top: 150px;
+    transition: all .3s;
+    transition-delay: .2s;
+    
+  }
+  #modal{
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      background-color: rgba(7, 7, 6, 0.8);
+      display: none;
+  }
+  #modal2{
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      background-color: rgba(7, 7, 6, 0.8);
+      display: none;
+  }
+  #modal:target{
+      display: block;
+  }
+  #modal2:target{
+      display: block;
+  }
+  #close{
+      color: black;
+      /* font-family: Arial;
+      font-size: 35px;
+      position: absolute;
+      width: 40px;
+      text-align: center; */
+  }
+  #close:hover{
+      opacity: .6;
+  }

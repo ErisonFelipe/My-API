@@ -1,8 +1,13 @@
 const express = require('express');
+const path = require('path');
 const app = express();
+
+app.set('views engine', 'ejs');
+app.set('views', path.join(__dirname, 'views'));
 
 app.use(express({extend: true}));
 app.use(express.json());
+app.use(express.static('public'));
 
 var usuarioRouter = require('./routes/usuarios.routes');
 var petsRouter = require('./routes/pets.routes');
